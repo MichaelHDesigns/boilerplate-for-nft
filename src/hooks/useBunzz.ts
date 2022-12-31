@@ -3,13 +3,13 @@ import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
 
 // ===== Make changes as needed (start) =====
-export const chainId = 80001;
+export const chainId = 2330;
 const MODULE_NAME = "NFTMintingModule"; // This value is the name of module in Bunzz App.
 export const NETWORK_INFO = {
-  chainName: "Mumbai Testnet",
+  chainName: "Altcoinchain",
   chainId: "0x" + chainId.toString(16),
-  nativeCurrency: { name: "MATIC", decimals: 18, symbol: "MATIC" },
-  rpcUrls: ["https://rpc-mumbai.maticvigil.com"],
+  nativeCurrency: { name: "ALT", decimals: 18, symbol: "ALT" },
+  rpcUrls: ["https://rpc0.altcoinchain.org"],
 };
 const IPFS_GW_BASEURL_JSON = `https://cloudflare-ipfs.com/ipfs`;
 // ===== Make changes as needed (end) ======
